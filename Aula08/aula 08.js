@@ -1,4 +1,4 @@
-console.log ("DE novo olá mundo ")
+console.log ("De novo olá mundo ")
 /* console.log é um comando que vai exibir
 informações no console do navegador. */
 

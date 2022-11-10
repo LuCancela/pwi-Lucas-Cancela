@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JS Strings</h1>
+<h2>Mudando toda a frase de maíscula para minuscula.</h2>
+
+<p>ES2021 intoduced the string method replaceAll().</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "Eu amo gatos. Gatos são muito faceis de amar. Gatos são muito populares."
+text = text.replaceAll("Gatos","Cachorros");
+text = text.replaceAll("gatos","cachorros");
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
